@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+This is a navbar template that can be used for applicaitions. Navbar template makes it easier create apps- the style and links can be changed. The array can be incorporated into sidebars and footers.
+
+# Usage
+Clone the repo and run npm install. The style can be changed to to fit every developers needs.
+
+# Testing
+No testing was done on this project.
