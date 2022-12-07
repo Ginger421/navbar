@@ -1,18 +1,18 @@
 import React from 'react'
-import logo from './logo.svg'
-import {} from ''
+import './Navbar.css';
+import { links } from './Links' 
 
 const Navbar = () => {
   return (
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} alt="picture of flower"/>
+          <img src='' alt="picture of flower"/>
           <button className='nav-toggle'>
 
           </button>
         </div>
-        <div className='container show-container'>
+        <div className='container show container'>
           <ul className='page-links'>
             <li>
               <a href='#'>Home</a>
