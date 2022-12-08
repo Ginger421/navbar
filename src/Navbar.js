@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css';
-import { links } from './Links' 
+import { links, social } from './Links' 
 
 const Navbar = () => {
   return (
@@ -14,28 +14,23 @@ const Navbar = () => {
         </div>
         <div className='container show container'>
           <ul className='page-links'>
-            <li>
-              <a href='#'>Home</a>
+          {links.map((link) => {
+            const {id, url, text} = 'link';
+            return <li key={id}>
+              <a href={url}>{text}</a>                
             </li>
-            <li>
-              <a href='#'>About</a>
-            </li>
-            <li>
-              <a href='#'>Extra</a>
-            </li>
-
+          }
+          )}
           </ul>
         </div>
         <ul className='plant-icons'>
-        <li>
-              <a href='https://plants.usda.gov/'>USDA Plant Database</a>
+        {links.map((social) => {
+            const {id, url, text} = 'social';
+            return <li key={id}>
+              <a href={url}>{text}</a>                
             </li>
-            <li>
-              <a href='https://www.fs.usda.gov/detail/fishlake/home/?cid=STELPRDB5393641'>Pando</a>
-            </li>
-            <li>
-              <a href='https://longleafalliance.org/what-is-longleaf/the-ecosystem/habitats/'>Longleaf Pine</a>
-            </li>
+          }
+          )}
         </ul>
       </div>
     </nav>
