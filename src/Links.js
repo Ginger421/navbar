@@ -17,3 +17,11 @@ export const links = [
         text: 'Contact'
     }
 ]
+
+export const social = [
+    {
+        id:
+        url:
+        text:
+    }
+]
