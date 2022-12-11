@@ -24,10 +24,10 @@ const Navbar = () => {
           </ul>
         </div>
         <ul className='plant-icons'>
-        {links.map((social) => {
-            const {id, url, text} = 'social';
+        {social.map((social) => {
+            const {id, url, icon} = 'social';
             return <li key={id}>
-              <a href={url}>{text}</a>                
+              <a href={url}>{icon}</a>                
             </li>
           }
           )}

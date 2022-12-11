@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faLinkedin, faTwitter} from '@fortawesome/free-solid-svg-icons'
 
 export const links = [
     {
@@ -20,8 +22,18 @@ export const links = [
 
 export const social = [
     {
-        id:
-        url:
-        text:
+        id: 1,
+        url: "www.facebook.com",
+        icon: <faFacebook />
+    },
+    {
+        id: 2,
+        url: "www.linkedin.com",
+        icon: <faLinkedin />
+    },
+    {
+        id: 1,
+        url: "www.twitter.com",
+        icon: <faTwitter />
     }
 ]
