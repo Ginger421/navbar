@@ -1,13 +1,15 @@
 import React from 'react'
 import './Navbar.css';
-import { links, social } from './Links' 
+import { links, socialMedia } from './Links' 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 const Navbar = () => {
   return (
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src='' alt="picture of flower"/>
+          <img src='' alt="alt"/>
           <button className='nav-toggle'>
 
           </button>
@@ -23,8 +25,8 @@ const Navbar = () => {
           )}
           </ul>
         </div>
-        <ul className='plant-icons'>
-        {social.map((social) => {
+        <ul className='media-icons'>
+        {socialMedia.map((social) => {
             const {id, url, icon} = 'social';
             return <li key={id}>
               <a href={url}>{icon}</a>                
